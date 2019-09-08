@@ -35,6 +35,7 @@
     "domain-browser": "^1.2.0",
     "events": "^1.1.1",
     "expo-local-authentication": "^6.0.0",
+    "expo-secure-store": "^6.0.0",
     "https-browserify": "0.0.1",
     "path-browserify": "0.0.0",
     "punycode": "^1.4.1",

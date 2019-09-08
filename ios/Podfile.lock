@@ -14,6 +14,8 @@ PODS:
   - EXPermissions (6.0.0):
     - UMCore
     - UMPermissionsInterface
+  - EXSecureStore (6.0.0):
+    - UMCore
   - Folly (2018.10.22.00):
     - boost-for-react-native
     - DoubleConversion
@@ -90,6 +92,7 @@ DEPENDENCIES:
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
   - EXLocalAuthentication (from `../node_modules/expo-local-authentication/ios`)
   - EXPermissions (from `../node_modules/expo-permissions/ios`)
+  - EXSecureStore (from `../node_modules/expo-secure-store/ios`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - react-native-randombytes (from `../node_modules/react-native-randombytes`)
@@ -137,6 +140,9 @@ EXTERNAL SOURCES:
   EXPermissions:
     :path: !ruby/object:Pathname
     path: "../node_modules/expo-permissions/ios"
+  EXSecureStore:
+    :path: !ruby/object:Pathname
+    path: "../node_modules/expo-secure-store/ios"
   Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
@@ -192,6 +198,7 @@ SPEC CHECKSUMS:
   EXFileSystem: 052afe415f8d6542c70fd4a31d5b3f06e0f0d302
   EXLocalAuthentication: d9b7ec992aa8512377af792b4d5e589aba92ed88
   EXPermissions: 16ba0c231330b124ef69f2674319341b654f6a79
+  EXSecureStore: c00896bd1470649d295e39ba78b67646184d9268
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
   React: a86b92f00edbe1873a63e4a212c29b7a7ad5224f
