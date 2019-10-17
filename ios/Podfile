@@ -29,6 +29,15 @@ target 'napp' do
   # Pods for napp
   pod 'react-native-randombytes', :path => '../node_modules/react-native-randombytes'
 
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'nappTests' do
     inherit! :search_paths
     # Pods for testing
